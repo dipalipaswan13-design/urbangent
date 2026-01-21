@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UrbanGent | Men's Wallets & Purses</title>
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;color:#333}
+header{background:#111;color:#fff;padding:15px;text-align:center}
+nav{display:flex;justify-content:center;gap:15px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-size:14px}
+.hero{background:#222;color:#fff;padding:40px 20px;text-align:center}
+.hero h1{font-size:28px}
+section{padding:20px;background:#fff;margin:10px;border-radius:10px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:15px}
+.card{background:#fafafa;padding:10px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.1);text-align:center}
+.card img{width:100%;border-radius:8px}
+.card h3{font-size:16px;margin:8px 0}
+.card p{font-size:13px}
+button{background:#111;color:#fff;border:none;padding:8px 12px;border-radius:6px;font-size:13px;cursor:pointer}
+footer{background:#111;color:#fff;text-align:center;padding:12px;font-size:12px}
+@media(max-width:600px){.hero h1{font-size:22px}}
+</style>
+</head>
+<body>
+<header>
+<h2>UrbanGent</h2>
+<p>Premium Men's Purses & Wallets</p>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#features">Features</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>Redefining Style for Modern Men</h1>
+<p>Premium quality purses crafted for elegance & durability</p>
+</div>
+
+<section id="about">
+<h2>About Our Brand</h2>
+<p>UrbanGent is a modern men's accessory brand focused on premium craftsmanship, durability and timeless design. Our purses are designed for daily use with a luxury feel.</p>
+</section>
+
+<section id="products">
+<h2>Our Collection</h2>
+<div class="products">
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="Classic Leather Purse">
+<h3>Classic Leather Purse</h3>
+<p>Slim, durable & stylish</p>
+<button>Enquire</button>
+</div>
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="Executive Wallet">
+<h3>Executive Wallet</h3>
+<p>Perfect for professionals</p>
+<button>Enquire</button>
+</div>
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="RFID Wallet">
+<h3>RFID Secure Wallet</h3>
+<p>Advanced RFID protection</p>
+<button>Enquire</button>
+</div>
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="Minimal Wallet">
+<h3>Minimal Wallet</h3>
+<p>Lightweight everyday use</p>
+<button>Enquire</button>
+</div>
+</div>
+</section>
+
+<section id="features">
+<h2>Why Choose Us</h2>
+<ul>
+<li>Premium quality material</li>
+<li>Modern & professional design</li>
+<li>Long-lasting durability</li>
+<li>Affordable pricing</li>
+<li>100% Mobile-friendly</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: brand@email.com</p>
+<p>Phone / WhatsApp: +91-XXXXXXXXXX</p>
+<p>Location: India</p>
+</section>
+
+<footer>
+<p>© 2026 UrbanGent. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
